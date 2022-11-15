@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Problem from "../components/Problem";
 import Head from "next/head";
+import Platforms from "../components/Platforms";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Problem />
+      <Platforms />
     </div>
   );
 }

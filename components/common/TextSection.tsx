@@ -15,7 +15,7 @@ const TextSection: React.FC<{
     <div className="flex flex-col items-center justify-center">
       <h1 className="text-9xl mb-8">{title}</h1>
       <p className="text-2xl text-gray-300 mb-8">{subtitle}</p>
-      <div className=" border border-bar shadow-2xl max-w-2xl rounded-md bg-bar overflow-hidden">
+      <div className="border border-bar shadow-2xl max-w-2xl rounded-md bg-bar overflow-hidden">
         <nav className="bg-bar flex items-center py-1 px-2 rounded-t-md">
           {colors.map((color) => (
             <span
@@ -24,7 +24,7 @@ const TextSection: React.FC<{
             />
           ))}
         </nav>
-        <div className="p-6 italic bg-terminal">{content}</div>
+        <div className="p-6 italic bg-light-gray">{content}</div>
       </div>
     </div>
   );

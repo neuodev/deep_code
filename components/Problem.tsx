@@ -3,7 +3,7 @@ import TextSection from "./common/TextSection";
 
 const Problem = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col items-center justify-center min-h-screen border-b-2 border-dashed">
       <TextSection
         title="The Problem"
         subtitle="The problem we are trying to solve"

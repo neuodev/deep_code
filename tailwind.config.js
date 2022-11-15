@@ -14,8 +14,8 @@ module.exports = {
       },
       colors: {
         dark: "#121212",
-        terminal: "#33485E",
-        bar: "#DAD9D9",
+        "light-gray": "#2C3333",
+        bar: "#0F0E0E",
       },
     },
   },
